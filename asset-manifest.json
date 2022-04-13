@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/easter2022/static/css/main.073c9b0a.css",
+    "main.js": "/easter2022/static/js/main.a224c3aa.js",
+    "static/js/787.2394369e.chunk.js": "/easter2022/static/js/787.2394369e.chunk.js",
+    "static/media/logo.svg": "/easter2022/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/easter2022/index.html",
+    "main.073c9b0a.css.map": "/easter2022/static/css/main.073c9b0a.css.map",
+    "main.a224c3aa.js.map": "/easter2022/static/js/main.a224c3aa.js.map",
+    "787.2394369e.chunk.js.map": "/easter2022/static/js/787.2394369e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a224c3aa.js"
+  ]
+}
