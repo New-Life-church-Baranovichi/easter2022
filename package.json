@@ -2,7 +2,7 @@
   "name": "easter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://New-Life-church-Baranovichi.github.io/easter2022",
+  "homepage": "https://new-life-church-baranovichi.github.io/easter2022",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
