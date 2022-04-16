@@ -1,18 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./header/Header";
+import Prequel from "./prequel/Prequel";
+import Questions from "./questions/Questions";
+import Evidences from "./evidences/Evidences";
+import Contacts from "./contacts/Contacts";
+import Ibdn from "./ibdn/Ibdn";
+import Footer from "./footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This site is still in development.
-        </p>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Prequel/>
+            <Questions/>
+            <Evidences/>
+            <Contacts/>
+            <Ibdn/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

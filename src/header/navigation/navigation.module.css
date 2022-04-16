@@ -1,0 +1,19 @@
+.mainBlock {
+    display: flex;
+    justify-content: space-between;
+    height: 27px;
+    width: 50%;
+    min-width: 320px;
+    color: #FFFFFF;
+}
+.link {
+    margin: 0 10px 0 10px;
+}
+.link a {
+    text-decoration: none;
+}
+.link a:hover {
+    color: #FFCB75;
+    text-decoration: underline;
+}
+

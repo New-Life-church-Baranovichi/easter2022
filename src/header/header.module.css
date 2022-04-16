@@ -1,0 +1,84 @@
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-color: #2F2F2F;
+    padding-top: 47px;
+}
+.easterBlock {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+
+}
+.easterBlock p {
+    width: 263px;
+    text-align: center;
+    font-family: 'Gill Sans Light', serif;
+    font-size: 22px;
+    line-height: 95.5%;
+    margin: 10px;
+}
+
+.wreathBlock {
+    width: 80%;
+    height: 80%;
+    color: #FFCB75;
+    font-size: 100px;
+    text-align: center;
+    font-weight: normal;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+
+h5 {
+    top: 130px;
+    position: absolute;
+    z-index: 0;
+    color: #FFCB75;
+    font-size: 100px;
+    margin: 20px;
+
+}
+h1 {
+    margin: 140px 0 0 0;
+}
+
+.circle1 {
+    position: absolute;
+    top: 10px;
+    width: 90vh;
+    height: 90vh;
+    border: #C4C4C4 1px solid;
+    border-radius: 50%;
+}
+.circle2 {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 70vh;
+    height: 70vh;
+    border: #C4C4C4 1px solid;
+    border-radius: 50%;
+}
+.circle3 {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    width: 40vh;
+    height: 40vh;
+    border: #C4C4C4 1px solid;
+    border-radius: 50%;
+}
+
+
