@@ -16,6 +16,9 @@ const Header = () => {
                <div className={style.circle1}/>
                <div className={style.circle2}/>
                <div className={style.circle3}/>
+               <div className={style.circle4}/>
+                <div className={style.oriol1}/>
+                <div className={style.oriol2}/>
                 <div className={style.wreathBlock} style={wreath}>
                     <h1>ПАСХА</h1>
                 </div>

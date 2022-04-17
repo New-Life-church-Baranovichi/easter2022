@@ -1,5 +1,43 @@
 .mainBlock {
+    position: relative;
     width: 100%;
     height: 2007px;
     background-color: #F6F6F6;
+    color: black;
+    font-family: "Gill Sans Light", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.historyBlock {
+    display: flex;
+    width: 60%;
+    height: 400px;
+    border: black 1px solid;
+}
+
+.imageBlock {
+    width: 640px;
+    height: 390px;
+    border: red 1px solid;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.descriptionBlock {
+    width: 540px;
+    height: 170px;
+    background-color: yellow;
+}
+.title {
+    font-weight: bolder;
+}
+.descriptionBlock h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+
