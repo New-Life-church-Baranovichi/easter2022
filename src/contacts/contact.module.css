@@ -1,5 +1,65 @@
 .contactsBlock {
     width: 100%;
-    height: 771px;
+    height: 90vh;
     background-color: #F6F6F6;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+
 }
+
+.imageBlock {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 586px;
+    height: 608px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-left: 150px;
+
+}
+
+.textBlock h2 {
+    font-size: 1.9em;
+    margin-bottom: 15px;
+}
+
+.socialBlock {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.socialBlock span a {
+    color: #FFCB75;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.socialBlock a {
+    text-decoration: none;
+}
+
+.socialBlock a:hover {
+    text-decoration: underline;
+}
+
