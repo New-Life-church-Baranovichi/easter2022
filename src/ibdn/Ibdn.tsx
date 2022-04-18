@@ -12,6 +12,8 @@ const Ibdn = () => {
     }
     return (
         <div className={style.mainBlock}>
+            <div className={style.circle1}/>
+            <div className={style.circle2}/>
             <div className={style.mainContainer}>
                 <div className={style.imgBlock} style={ibdnImg}/>
                 <div className={style.logoBlock}>
