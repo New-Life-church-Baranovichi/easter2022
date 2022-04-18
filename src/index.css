@@ -16,6 +16,12 @@
   url('assets/fonts/gillSans/83-font.otf') format('opentype');
   font-weight: auto;
 }
+@font-face {
+  font-family: 'Gill Sans Bold';
+  src: local('Gill Sans Bold'),
+  url('assets/fonts/gillSans/newGillSans/GillSansProCyrillic-Bold.ttf') format('truetype');
+  font-weight: auto;
+}
 
 body {
   margin: 0;
