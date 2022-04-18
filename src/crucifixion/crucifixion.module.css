@@ -1,5 +1,51 @@
 .mainBlock {
     width: 100%;
     height: 1595px;
-    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
+
+.imagesContainer {
+    width: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: -550px;
+    left: 20%;
+    transform: translate(-20%, 20%);
+}
+.imageBlock {
+    margin-bottom: 75px;
+    width: 447px;
+    height: 596px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.textContainer {
+    width: 540px;
+    margin-right: 20px;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleBlock {
+    color: #FFCB75;
+    font-size: 24px;
+    padding-right: 50px;
+}
+.titleBlock h2 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 95.5%;
+    margin-bottom: 20px;
+}
+

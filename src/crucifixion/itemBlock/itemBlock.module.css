@@ -1,0 +1,14 @@
+.itemBlock {
+    margin-top: 40px;
+    font-family: "Gill Sans Light", serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 95.5%;
+}
+
+.itemBlock h3 {
+    font-family: "Gill Sans", serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
