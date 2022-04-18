@@ -19,6 +19,18 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    border: #FFCB75 1px solid;
+    z-index: 0;
 }
 
 .mainContainer {

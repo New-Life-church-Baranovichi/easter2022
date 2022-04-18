@@ -45,6 +45,7 @@ const Contacts = () => {
 
             </div>
             <div className={style.imageBlock} style={phoneImage}/>
+            <div className={style.circle}/>
         </div>
     );
 };
