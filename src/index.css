@@ -22,6 +22,12 @@
   url('assets/fonts/gillSans/newGillSans/GillSansProCyrillic-Bold.ttf') format('truetype');
   font-weight: auto;
 }
+@font-face {
+  font-family: 'Druk Cyr';
+  src: local('Druk Cyr'),
+  url('assets/fonts/DrukCyr/DrukCyr-Heavy.ttf') format('truetype');
+  font-weight: normal;
+}
 
 body {
   margin: 0;

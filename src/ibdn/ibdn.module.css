@@ -1,5 +1,52 @@
 .mainBlock {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 605px;
     background-color: #2F2F2F;
+}
+.mainContainer {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBlock {
+    width: 428px;
+    height: 375px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logoBlock {
+    width: 345px;
+    margin-left: 60px;
+
+}
+
+.logo {
+    font-family: "Druk Cyr", serif;
+    font-size: 80px;
+    line-height: 90%;
+
+}
+.instagramIcon {
+    margin-right: 10px;
+    width: 21px;
+    height: 21px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.instagramBlock {
+    display: flex;
+    font-size: 20px;
+    color: #7FF950;
+    margin-bottom: 10px;
+}
+
+.greenText {
+    color: #7FF950;
 }
