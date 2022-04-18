@@ -5,14 +5,13 @@
     width: 50%;
     min-width: 320px;
     color: #FFFFFF;
+    z-index: 2;
+
 }
 .link {
     margin: 0 10px 0 10px;
 }
-.link a {
-    text-decoration: none;
-}
-.link a:hover {
+.links:hover {
     color: #FFCB75;
     text-decoration: underline;
 }

@@ -11,7 +11,7 @@ const HistoryBlock = () => {
         backgroundImage: `url(${bibleIcon})`
     }
     return (
-        <div className={style.historyBlock}>
+        <div className={style.historyBlock} id={'history'}>
             <div className={style.descriptionBlock}>
                 <h2>Предыстория</h2>
                 <p className={style.title}>Весь мир лежит во зле. </p>

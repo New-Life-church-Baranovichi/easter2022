@@ -7,6 +7,7 @@
     height: 100vh;
     background-color: #2F2F2F;
     padding-top: 47px;
+    z-index: 0;
 }
 .easterBlock {
     width: 80%;
@@ -19,10 +20,10 @@
 
 }
 .easterBlock p {
-    width: 263px;
+    width: 30%;
     text-align: center;
     font-family: 'Gill Sans Light', serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 95.5%;
 
 }
@@ -114,6 +115,7 @@
     opacity: 0.3;
     border-radius: 100px;
     filter: blur(100px);
+    z-index: 1;
 }
 
 

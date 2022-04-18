@@ -1,21 +1,42 @@
 import React from 'react';
 import style from './navigation.module.css'
+import {Link} from "react-scroll";
 
 const Navigation = () => {
     return (
         <div className={style.mainBlock}>
-            <div className={style.link}>
-                <a href="">история</a>
-            </div>
-            <div className={style.link}>
-                <a href="">распятие</a>
-            </div>
-            <div className={style.link}>
-                <a href="">значение</a>
-            </div>
-            <div className={style.link}>
-                <a href="">контакты</a>
-            </div>
+                <Link spy={true}
+                      activeClass={style.link}
+                      smooth={true}
+                      duration={500}
+                      style={{cursor: "pointer"}}
+                      to={'history'}>
+                    история
+                </Link>
+            <Link spy={true}
+                  activeClass={style.link}
+                  smooth={true}
+                  duration={500}
+                  style={{cursor: "pointer"}}
+                  to={'crucifixion'}>
+                распятие
+            </Link>
+            <Link spy={true}
+                  activeClass={style.link}
+                  smooth={true}
+                  duration={500}
+                  style={{cursor: "pointer"}}
+                  to={'meaning'}>
+                значение
+            </Link>
+            <Link spy={true}
+                  activeClass={style.link}
+                  smooth={true}
+                  duration={500}
+                  style={{cursor: "pointer"}}
+                  to={'contacts'}>
+                контакты
+            </Link>
         </div>
     );
 };

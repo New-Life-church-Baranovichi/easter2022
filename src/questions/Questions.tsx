@@ -3,7 +3,7 @@ import style from './questions.module.css'
 
 const Questions = () => {
     return (
-        <div className={style.mainBlock}>
+        <div className={style.mainBlock} id={'meaning'}>
             <div className={style.mainContainer}>
                 <div className={style.titleBlock}>
                     <h2>Что это значит для нас?</h2>

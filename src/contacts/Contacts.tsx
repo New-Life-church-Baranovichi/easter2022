@@ -20,7 +20,7 @@ const Contacts = () => {
         backgroundImage: `url(${vkontakteIcon})`
     }
     return (
-        <div className={style.contactsBlock}>
+        <div className={style.contactsBlock} id={'contacts'}>
             <div className={style.mainContainer}>
                 <div className={style.textBlock}>
                     <h2>Интересно?</h2>

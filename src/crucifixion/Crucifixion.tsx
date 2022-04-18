@@ -20,7 +20,7 @@ const Crucifixion = () => {
         backgroundImage: `url(${image3})`
     }
     return (
-        <div className={style.mainBlock} style={backgroundImg}>
+        <div className={style.mainBlock} style={backgroundImg} id={'crucifixion'}>
             <div className={style.imagesContainer}>
                 <div className={style.imageBlock} style={img1}/>
                 <div className={style.imageBlock} style={img2}/>
