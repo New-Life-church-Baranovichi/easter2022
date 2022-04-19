@@ -86,17 +86,20 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .mainBlock {
+        height: 60vh;
+    }
     .wreathBlock {
         width: 585px;
         height: 217px;
     }
     .easterBlock{
-        width: 585px;
+        width: 435px;
         height: 217px;
     }
     .easterBlock p {
         font-size: 18px;
-        top: -30px;
+        top: -50px;
         width: 216px;
     }
     .mainBlock h1 {

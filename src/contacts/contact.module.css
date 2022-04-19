@@ -75,3 +75,62 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1600px) {
+    .imageBlock{
+        width: 330px;
+        height: 549px;
+        background-position: left;
+        position: relative;
+    }
+
+    .textBlock h2 {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+
+    .textBlock p {
+        font-size: 20px;
+    }
+
+    .imgContainer {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .contactsBlock {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .mainContainer {
+        width: 75%;
+        margin-left: 0;
+    }
+
+    .socialBlock {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+
+    }
+
+    .iconsBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        width: 45%;
+    }
+
+    .circle {
+        right: 10px;
+        top: 400px;
+        width: 50vh;
+        height: 50vh;
+    }
+
+}
+

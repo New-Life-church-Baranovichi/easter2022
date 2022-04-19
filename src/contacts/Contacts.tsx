@@ -29,22 +29,27 @@ const Contacts = () => {
                     </p>
                 </div>
                 <div className={style.socialBlock}>
-
-                    <a href="https://instagram.com/nlife.youth/">
-                        <div className={style.icon} style={instagram}/>
-                    </a>
-                    <a href="tg://resolve?domain=nlifeyouth">
-                        <div className={style.icon} style={telegram}/>
-                    </a>
-                    <a href="https://vk.com/nlife.youth">
-                        <div className={style.icon} style={vkontakte}/>
-                    </a>
-                    <div>Ещё больше <span><a href="https://taplink.cc/nlife.youth">здесь</a></span>
+                    <div className={style.iconsBlock}>
+                        <a href="https://instagram.com/nlife.youth/">
+                            <div className={style.icon} style={instagram}/>
+                        </a>
+                        <a href="tg://resolve?domain=nlifeyouth">
+                            <div className={style.icon} style={telegram}/>
+                        </a>
+                        <a href="https://vk.com/nlife.youth">
+                            <div className={style.icon} style={vkontakte}/>
+                        </a>
+                    </div>
+                    <div>
+                        Ещё больше <span><a href="https://taplink.cc/nlife.youth">здесь</a></span>
                     </div>
                 </div>
 
             </div>
-            <div className={style.imageBlock} style={phoneImage}/>
+            <div className={style.imgContainer}>
+                <div className={style.imageBlock} style={phoneImage}/>
+            </div>
+
             <div className={style.circle}/>
         </div>
     );
