@@ -20,7 +20,6 @@
 
 .descriptionBlock {
     width: 50%;
-    height: 470px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,4 +62,23 @@
     font-weight: 600;
     line-height: 18px;
     letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1600px) {
+    .imageBlock{
+        width: 248px;
+        height: 306px;
+    }
+    .descriptionBlock h2{
+        font-size: 30px;
+    }
+
+    .mainBlock {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .descriptionBlock {
+        width: 80%;
+    }
 }
