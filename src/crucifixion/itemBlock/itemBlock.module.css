@@ -3,7 +3,6 @@
     font-family: "Gill Sans Light", serif;
     font-size: 24px;
     font-weight: 300;
-    line-height: 95.5%;
 }
 
 .itemBlock h3 {
@@ -11,4 +10,16 @@
     font-size: 30px;
     margin-bottom: 30px;
 
+}
+
+@media screen and (max-width: 1600px) {
+    .itemBlock {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .itemBlock h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
 }
