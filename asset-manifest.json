@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/easter2022/static/css/main.7cf829ac.css",
-    "main.js": "/easter2022/static/js/main.845f3379.js",
+    "main.css": "/easter2022/static/css/main.e8d4fde1.css",
+    "main.js": "/easter2022/static/js/main.0020f99a.js",
     "static/js/787.2394369e.chunk.js": "/easter2022/static/js/787.2394369e.chunk.js",
     "static/media/backgroundImg.png": "/easter2022/static/media/backgroundImg.93f3a9af1e5f815e427f.png",
-    "static/media/wreath.png": "/easter2022/static/media/wreath.5e197a072cf6a200290a.png",
+    "static/media/wreathImg.png": "/easter2022/static/media/wreathImg.d13569d987f5d2452ddd.png",
     "static/media/img3.png": "/easter2022/static/media/img3.411837ba70ba785bcf6c.png",
     "static/media/img2.png": "/easter2022/static/media/img2.1e87bea70a896cee4bea.png",
     "static/media/img1.png": "/easter2022/static/media/img1.ebd806e0e72f697459b1.png",
@@ -22,12 +22,12 @@
     "static/media/GillSansC.ttf": "/easter2022/static/media/GillSansC.ed1daaccc23c78eb481b.ttf",
     "static/media/83-font.otf": "/easter2022/static/media/83-font.1be3b674435b59d96325.otf",
     "index.html": "/easter2022/index.html",
-    "main.7cf829ac.css.map": "/easter2022/static/css/main.7cf829ac.css.map",
-    "main.845f3379.js.map": "/easter2022/static/js/main.845f3379.js.map",
+    "main.e8d4fde1.css.map": "/easter2022/static/css/main.e8d4fde1.css.map",
+    "main.0020f99a.js.map": "/easter2022/static/js/main.0020f99a.js.map",
     "787.2394369e.chunk.js.map": "/easter2022/static/js/787.2394369e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cf829ac.css",
-    "static/js/main.845f3379.js"
+    "static/css/main.e8d4fde1.css",
+    "static/js/main.0020f99a.js"
   ]
 }
