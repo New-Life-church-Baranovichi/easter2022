@@ -17,6 +17,10 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 
 }
 .easterBlock p {
@@ -46,7 +50,7 @@
 .wreathBlock:before {
     position: absolute;
     content: '';
-    width: 600px;
+    width: 50%;
     height: 600px;
     background: #FFCB75;
     bottom: 100px;
@@ -90,19 +94,23 @@
         height: 60vh;
     }
     .wreathBlock {
-        width: 585px;
-        height: 217px;
+        width: 100%;
+        height: 100%;
+        font-size: 80px;
+
     }
     .easterBlock{
-        width: 435px;
+        width: 100%;
         height: 217px;
+
+
     }
     .easterBlock p {
         font-size: 18px;
         top: -50px;
         width: 216px;
     }
-    .mainBlock h1 {
+    .wreathBlock h1 {
         font-size: 80px;
         margin: 100px 0 0 0;
     }

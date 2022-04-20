@@ -48,7 +48,7 @@
 }
 
 .socialBlock {
-    width: 270px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,8 +60,8 @@
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@
 }
 
 @media screen and (max-width: 1600px) {
-    .imageBlock{
+    .imageBlock {
         width: 330px;
         height: 549px;
         background-position: left;
