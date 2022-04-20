@@ -20,6 +20,7 @@ function App() {
             <Contacts/>
             <Ibdn/>
             <Footer/>
+
         </div>
     );
 }
