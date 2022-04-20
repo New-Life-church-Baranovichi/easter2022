@@ -78,3 +78,25 @@
     filter: blur(200px);
     z-index: 0;
 }
+
+@media screen and (max-width: 1600px) {
+    .mainBlock {
+        height: 100vh;
+    }
+    .mainContainer {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+    }
+.imgBlock {
+    width: 336px;
+    height: 345px;
+    background-position: left;
+
+}
+.logo {
+    font-size: 50px;
+}
+
+
+}
