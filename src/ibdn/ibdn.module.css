@@ -60,26 +60,26 @@
 .circle1 {
     position: absolute;
     top: 0;
-    left: -300px;
-    width: 500px;
-    height: 300px;
+    left: 0;
+    width: 200px;
+    height: 200px;
     background-color: #7FF950;
     opacity: 0.8;
     border-radius: 100px;
-    filter: blur(200px);
+    filter: blur(100px);
     z-index: 0;
 }
 
 .circle2 {
     position: absolute;
-    top: 600px;
+    top: 500px;
     right: 0;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: #7FF950;
-    opacity: 0.3;
+    opacity: 0.4;
     border-radius: 100px;
-    filter: blur(150px);
+    filter: blur(100px);
     z-index: 0;
 }
 

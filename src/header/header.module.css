@@ -79,14 +79,14 @@
 .oriol1 {
     position: absolute;
     top: -150px;
-    left: 400px;
-    width: 700px;
-    height: 100px;
+    left: 50%;
+    width: 170px;
+    height: 180px;
     background-color: #FFCB75;
     opacity: 0.3;
     border-radius: 100px;
     filter: blur(100px);
-    z-index: 1;
+    z-index: 0;
 }
 
 @media screen and (max-width: 1600px) {
