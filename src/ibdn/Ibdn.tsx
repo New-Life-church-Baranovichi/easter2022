@@ -24,16 +24,13 @@ const Ibdn = () => {
                         </div>
                     </a>
                     <div className={style.logo}>
-                         <div>ИЗУЧЕНИЕ</div>
-                         <div className={style.greenText}>БИБЛИИ</div>
-                         <div>ДЛЯ</div>
-                         <div>НЕРЕЛИГИОЗНЫХ</div>
+                        <div>ИЗУЧЕНИЕ</div>
+                        <div className={style.greenText}>БИБЛИИ</div>
+                        <div>ДЛЯ</div>
+                        <div>НЕРЕЛИГИОЗНЫХ</div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     );
 };

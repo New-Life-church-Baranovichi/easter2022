@@ -10,6 +10,8 @@
 .App {
   font-family: "Gill Sans", serif;
   color: #FFFFFF;
+  max-width: 600px;
+  margin: 0 auto;
 
 }
 a {
