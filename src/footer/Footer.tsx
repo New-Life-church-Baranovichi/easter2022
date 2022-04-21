@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className={style.mainBlock}>
             <div className={style.mainContainer}>
-                {/*<div className={style.circle}/>*/}
+                <div className={style.circle}/>
                 <div className={style.imgBlock} style={churchImage}>
                     <h1>
                         Ждем тебя!

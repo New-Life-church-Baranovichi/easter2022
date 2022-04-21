@@ -5,38 +5,50 @@ import {Link} from "react-scroll";
 const Navigation = () => {
     return (
         <div className={style.mainBlock}>
+            <div className={style.link}>
                 <Link spy={true}
+                      offset={0}
                       activeClass={style.link}
                       smooth={true}
-                      duration={500}
+                      duration={900}
                       style={{cursor: "pointer"}}
                       to={'history'}>
                     история
                 </Link>
-            <Link spy={true}
-                  activeClass={style.link}
-                  smooth={true}
-                  duration={500}
-                  style={{cursor: "pointer"}}
-                  to={'crucifixion'}>
-                распятие
-            </Link>
-            <Link spy={true}
-                  activeClass={style.link}
-                  smooth={true}
-                  duration={500}
-                  style={{cursor: "pointer"}}
-                  to={'meaning'}>
-                значение
-            </Link>
-            <Link spy={true}
-                  activeClass={style.link}
-                  smooth={true}
-                  duration={500}
-                  style={{cursor: "pointer"}}
-                  to={'contacts'}>
-                контакты
-            </Link>
+            </div>
+
+            <div className={style.link}>
+                <Link spy={true}
+                      offset={-60}
+                      activeClass={style.link}
+                      smooth={true}
+                      duration={900}
+                      style={{cursor: "pointer"}}
+                      to={'crucifixion'}>
+                    распятие
+                </Link>
+            </div>
+            <div className={style.link}>
+                <Link spy={true}
+                      activeClass={style.link}
+                      smooth={true}
+                      duration={900}
+                      style={{cursor: "pointer"}}
+                      to={'meaning'}>
+                    значение
+                </Link>
+            </div>
+            <div className={style.link}>
+                <Link spy={true}
+                      activeClass={style.link}
+                      smooth={true}
+                      duration={900}
+                      style={{cursor: "pointer"}}
+                      to={'contacts'}>
+                    контакты
+                </Link>
+            </div>
+
         </div>
     );
 };

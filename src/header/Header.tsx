@@ -13,7 +13,7 @@ const Header = () => {
             <div className={style.easterBlock}>
                 <p>Что все вокруг празднуют, и почему это важно.</p>
                 <h5>ЧТО ТАКОЕ</h5>
-                {/*<div className={style.oriol1}/>*/}
+                <div className={style.oriol1}/>
                 <div className={style.wreathBlock} style={wreath}>
                     <h1>ПАСХА</h1>
                 </div>
