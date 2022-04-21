@@ -16,7 +16,7 @@ function App() {
             <Prequel/>
             <Crucifixion/>
             <Questions/>
-            {/*<Evidences/>*/}
+            <Evidences/>
             <Contacts/>
             <Ibdn/>
             <Footer/>

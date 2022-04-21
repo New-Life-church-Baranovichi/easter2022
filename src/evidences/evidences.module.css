@@ -1,5 +1,22 @@
 .mainBlock {
     background-color: #FFCB75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 842px;
+    height: 100vh;
+}
+
+.mainContainer {
+    width: 85%;
+    height: 80%;
+    border: black 1px solid;
+    padding-top: 100px;
+}
+
+.mainItem {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #7ff950;
 }
