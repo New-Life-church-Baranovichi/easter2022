@@ -91,4 +91,10 @@
         width: 80%;
         height: 50%;
     }
+    .descriptionItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

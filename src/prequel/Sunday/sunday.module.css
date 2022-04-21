@@ -83,4 +83,10 @@
     .descriptionBlock {
         width: 80%;
     }
+    .descriptionItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

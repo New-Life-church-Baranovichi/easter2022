@@ -102,4 +102,7 @@
         height: 1px;
         left: 50%;
     }
+    .textBlock {
+        margin-left: 0;
+    }
 }

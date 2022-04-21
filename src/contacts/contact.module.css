@@ -69,10 +69,11 @@
 
 .socialBlock a {
     text-decoration: none;
+
 }
 
 .socialBlock a:hover {
-    text-decoration: underline;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 1600px) {

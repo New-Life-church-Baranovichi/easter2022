@@ -6,6 +6,7 @@
     background-color: #2F2F2F;
     position: relative;
 }
+
 .mainContainer {
     width: 70%;
     height: 100%;
@@ -22,6 +23,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .logoBlock {
     width: 345px;
     margin-left: 60px;
@@ -34,6 +36,7 @@
     line-height: 90%;
 
 }
+
 .instagramIcon {
     margin-right: 10px;
     width: 21px;
@@ -42,6 +45,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .instagramBlock {
     display: flex;
     font-size: 20px;
@@ -83,20 +87,34 @@
     .mainBlock {
         height: 100vh;
     }
+
     .mainContainer {
         flex-direction: column;
         width: 100%;
         align-items: flex-end;
     }
-.imgBlock {
-    width: 336px;
-    height: 345px;
-    background-position: left;
 
-}
-.logo {
-    font-size: 50px;
-}
+    .imgBlock {
+        width: 336px;
+        height: 345px;
+        background-position: left;
+
+    }
+
+    .logo {
+        font-size: 50px;
+    }
+
+    .logoBlock a {
+        text-decoration: none;
+    }
+
+    .logoBlock a:hover {
+        text-decoration: underline;
+    }
+    .logoBlock a:active {
+        text-decoration: none;
+    }
 
 
 }

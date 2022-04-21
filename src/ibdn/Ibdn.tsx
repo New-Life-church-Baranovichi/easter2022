@@ -17,10 +17,12 @@ const Ibdn = () => {
             <div className={style.mainContainer}>
                 <div className={style.imgBlock} style={ibdnImg}/>
                 <div className={style.logoBlock}>
-                    <div className={style.instagramBlock}>
-                        <div className={style.instagramIcon} style={greenImg}/>
-                        ibdn.baranovichi
-                    </div>
+                    <a href="https://instagram.com/ibdn.baranovichi?igshid=YmMyMTA2M2Y=">
+                        <div className={style.instagramBlock}>
+                            <div className={style.instagramIcon} style={greenImg}/>
+                            ibdn.baranovichi
+                        </div>
+                    </a>
                     <div className={style.logo}>
                          <div>ИЗУЧЕНИЕ</div>
                          <div className={style.greenText}>БИБЛИИ</div>
