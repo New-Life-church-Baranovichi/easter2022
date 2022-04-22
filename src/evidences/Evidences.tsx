@@ -1,18 +1,12 @@
 import React from 'react';
 import style from './evidences.module.css'
+import PersonEvidence from "./personEvidence/PersonEvidence";
+
 
 const Evidences = () => {
     return (
         <div className={style.mainBlock}>
-            <div className={style.mainContainer}>
-                <div className={style.mainItem}>
-                    <div className={style.photoImg}/>
-
-                </div>
-
-            </div>
-
-
+            <PersonEvidence/>
         </div>
     );
 };
