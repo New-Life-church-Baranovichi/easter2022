@@ -1,35 +1,33 @@
 import React from 'react';
 import style from "./persomEvidence.module.css";
 import IliaImage from "../../assets/images/Ilia.png";
+import {VisibilityContext} from "react-horizontal-scrolling-menu";
 
-const PersonEvidence = () => {
+type PersonEvidencePropsType = {
+    name: string
+    age: number
+    topBlock: string
+    mainBlock: string
+}
+
+const PersonEvidence: React.FC<PersonEvidencePropsType> = ({age, name, topBlock, mainBlock,}) => {
     const iliaImg = {
         backgroundImage: `url(${IliaImage})`
     }
     return (
+
         <div className={style.mainContainer}>
             <div className={style.mainItem}>
                 <div className={style.photoImg} style={iliaImg}/>
-                <h2>Илья</h2>
+                <h2>{name}</h2>
                 <div className={style.ageBlock}>
-                    18 лет
+                    {age} лет
                 </div>
                 <div className={style.topBlock}>
-                    Какая-то информация, может о семье или еще что. Что бы было видно, что живой человек
+                    {topBlock}
                 </div>
                 <div className={style.mainParagraph}>
-                    Значимость этих проблем настолько очевидна, что новая модель организационной деятельности
-                    требуют от нас анализа соответствующий условий активизации. Таким образом реализация намеченных
-                    плановых заданий в значительной степени обуславливает создание направлений прогрессивного
-                    развития. Товарищи!
-                    С другой стороны начало повседневной работы по формированию позиции обеспечивает широкому кругу
-                    (специалистов) участие в формировании дальнейших направлений развития. Повседневная практика
-                    показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности
-                    обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых
-                    участниками в отношении поставленных задач. Таким образом реализация намеченных плановых заданий
-                    в значительной степени обуславливает создание направлений прогрессивного развития. Товарищи!
-                    Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение
-                    нашей деятельности обеспечивает широкому кругу
+                    {mainBlock}
                 </div>
             </div>
         </div>
