@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/easter2022/static/css/main.4155ab72.css",
-    "main.js": "/easter2022/static/js/main.5fd7b5cf.js",
+    "main.css": "/easter2022/static/css/main.0b20926c.css",
+    "main.js": "/easter2022/static/js/main.ea506c6c.js",
     "static/js/787.2394369e.chunk.js": "/easter2022/static/js/787.2394369e.chunk.js",
     "static/media/backgroundImg.png": "/easter2022/static/media/backgroundImg.93f3a9af1e5f815e427f.png",
     "static/media/wreathImg.png": "/easter2022/static/media/wreathImg.d13569d987f5d2452ddd.png",
@@ -11,23 +11,23 @@
     "static/media/phoneImage.png": "/easter2022/static/media/phoneImage.599ff607c542870857bd.png",
     "static/media/image6.png": "/easter2022/static/media/image6.a8d54a9934a894a8a6de.png",
     "static/media/JesusLife.png": "/easter2022/static/media/JesusLife.05471be8946187634dc8.png",
-    "static/media/IbdnImage.png": "/easter2022/static/media/IbdnImage.63cae384535001e2376b.png",
     "static/media/JesusBorn.png": "/easter2022/static/media/JesusBorn.4bef2aea17dd774b213b.png",
     "static/media/sunday.png": "/easter2022/static/media/sunday.ce350ee2d3c80cb64a20.png",
     "static/media/GillSansProCyrillic-Bold.ttf": "/easter2022/static/media/GillSansProCyrillic-Bold.17088702291ed238e0ad.ttf",
     "static/media/DrukCyr-Heavy.ttf": "/easter2022/static/media/DrukCyr-Heavy.a894eb7ec19868f184d7.ttf",
     "static/media/YesevaOne.ttf": "/easter2022/static/media/YesevaOne.77e7411de8c57683e277.ttf",
     "static/media/churchImg.png": "/easter2022/static/media/churchImg.12b6abe309d1d3a76315.png",
+    "static/media/IbdnImage.png": "/easter2022/static/media/IbdnImage.909a3654a1ae186aa308.png",
     "static/media/JesusDie.png": "/easter2022/static/media/JesusDie.b35d2567a11a9422aac7.png",
     "static/media/GillSansC.ttf": "/easter2022/static/media/GillSansC.ed1daaccc23c78eb481b.ttf",
     "static/media/83-font.otf": "/easter2022/static/media/83-font.1be3b674435b59d96325.otf",
     "index.html": "/easter2022/index.html",
-    "main.4155ab72.css.map": "/easter2022/static/css/main.4155ab72.css.map",
-    "main.5fd7b5cf.js.map": "/easter2022/static/js/main.5fd7b5cf.js.map",
+    "main.0b20926c.css.map": "/easter2022/static/css/main.0b20926c.css.map",
+    "main.ea506c6c.js.map": "/easter2022/static/js/main.ea506c6c.js.map",
     "787.2394369e.chunk.js.map": "/easter2022/static/js/787.2394369e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4155ab72.css",
-    "static/js/main.5fd7b5cf.js"
+    "static/css/main.0b20926c.css",
+    "static/js/main.ea506c6c.js"
   ]
 }
