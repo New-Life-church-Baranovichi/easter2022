@@ -2,6 +2,7 @@ import React from 'react';
 import style from './ibdn.module.css'
 import ibdnImage from "../assets/images/IbdnImage.png";
 import greenInstagram from "../assets/images/greenIstagram.png";
+import Tilt from 'react-parallax-tilt';
 
 const Ibdn = () => {
     const ibdnImg = {
@@ -15,6 +16,7 @@ const Ibdn = () => {
             <div className={style.circle1}/>
             <div className={style.circle2}/>
             <div className={style.mainContainer}>
+                <Tilt></Tilt>
                 <div className={style.imgBlock} style={ibdnImg}/>
                 <div className={style.logoBlock}>
                     <a href="https://instagram.com/ibdn.baranovichi?igshid=YmMyMTA2M2Y=">

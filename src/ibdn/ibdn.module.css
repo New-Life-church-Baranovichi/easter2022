@@ -5,6 +5,8 @@
     height: 605px;
     background-color: #2F2F2F;
     position: relative;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .mainContainer {
@@ -85,7 +87,7 @@
 
 @media screen and (max-width: 1600px) {
     .mainBlock {
-        height: 100vh;
+
     }
 
     .mainContainer {
@@ -96,8 +98,8 @@
 
     .imgBlock {
         width: 336px;
-        height: 345px;
-        background-position: left;
+        height: 545px;
+        background-position: center;
 
     }
     .logo {

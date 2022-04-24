@@ -3,6 +3,7 @@ import style from "./histotyBlock.module.css";
 import bibleIcon from "../../assets/images/bibleIcon.png";
 import firstImage from "../../assets/images/image6.png";
 
+
 const HistoryBlock = () => {
     const firstImg = {
         backgroundImage: `url(${firstImage})`
@@ -31,7 +32,7 @@ const HistoryBlock = () => {
 
                 </p>
             </div>
-            <div className={style.imageBlock} style={firstImg}/>
+                <div className={style.imageBlock} style={firstImg}/>
         </div>
     );
 };

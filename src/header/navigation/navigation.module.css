@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     height: 27px;
+    margin-top: 15px;
     width: 50%;
     min-width: 320px;
     color: #FFFFFF;
