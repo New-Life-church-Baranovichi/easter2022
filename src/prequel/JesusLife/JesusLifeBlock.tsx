@@ -2,6 +2,7 @@ import React from 'react';
 import style from "./JesusLife.module.css";
 import bibleIcon from "../../assets/images/bibleIcon.png";
 import jesusLife from "../../assets/images/JesusLife.png";
+import Tilt from 'react-parallax-tilt'
 
 const JesusLifeBlock = () => {
     const firstImg = {
@@ -33,7 +34,10 @@ const JesusLifeBlock = () => {
 
                 </p>
             </div>
-            <div className={style.imageBlock} style={firstImg}/>
+            <Tilt>
+                <div className={style.imageBlock} style={firstImg}/>
+            </Tilt>
+
 
         </div>
     );

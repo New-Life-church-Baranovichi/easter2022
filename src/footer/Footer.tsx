@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './footer.module.css'
 import churchImg from '../assets/images/churchImg.png'
+import Tilt from 'react-parallax-tilt'
 
 const Footer = () => {
     const churchImage = {
@@ -10,15 +11,17 @@ const Footer = () => {
         <div className={style.mainBlock}>
             <div className={style.mainContainer}>
                 <div className={style.circle}/>
-                <div className={style.imgBlock} style={churchImage}>
-                    <h1>
-                        Ждем тебя!
-                    </h1>
-                    <p>
+                <Tilt>
+                    <div className={style.imgBlock} style={churchImage}>
+                        <h1>
+                            Ждем тебя!
+                        </h1>
+                        <p>
                             ул. Вагонная, 6
-                    </p>
+                        </p>
+                    </div>
+                </Tilt>
 
-                </div>
                 <div className={style.verticalLine}/>
                 <div className={style.textBlock}>
                     <div>

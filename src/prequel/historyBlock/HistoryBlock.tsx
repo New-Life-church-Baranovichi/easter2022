@@ -2,6 +2,7 @@ import React from 'react';
 import style from "./histotyBlock.module.css";
 import bibleIcon from "../../assets/images/bibleIcon.png";
 import firstImage from "../../assets/images/image6.png";
+import Tilt from 'react-parallax-tilt'
 
 
 const HistoryBlock = () => {
@@ -32,7 +33,9 @@ const HistoryBlock = () => {
 
                 </p>
             </div>
+            <Tilt>
                 <div className={style.imageBlock} style={firstImg}/>
+            </Tilt>
         </div>
     );
 };

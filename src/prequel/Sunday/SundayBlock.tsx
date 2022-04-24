@@ -2,6 +2,7 @@ import React from 'react';
 import style from "./sunday.module.css";
 import bibleIcon from "../../assets/images/bibleIcon.png";
 import sunday from "../../assets/images/sunday.png";
+import Tilt from 'react-parallax-tilt'
 
 const SundayBlock = () => {
     const firstImg = {
@@ -33,7 +34,10 @@ const SundayBlock = () => {
 
                 </p>
             </div>
-            <div className={style.imageBlock} style={firstImg}/>
+            <Tilt>
+                <div className={style.imageBlock} style={firstImg}/>
+            </Tilt>
+
 
 
         </div>

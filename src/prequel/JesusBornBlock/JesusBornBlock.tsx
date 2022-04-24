@@ -2,6 +2,7 @@ import React from 'react';
 import style from "./JesusBornBlock.module.css";
 import bibleIcon from "../../assets/images/bibleIcon.png";
 import jesusBorn from "../../assets/images/JesusBorn.png";
+import Tilt from 'react-parallax-tilt'
 
 const JesusBornBlock = () => {
     const firstImg = {
@@ -12,7 +13,9 @@ const JesusBornBlock = () => {
     }
     return (
         <div className={style.mainBlock}>
-            <div className={style.imageBlock} style={firstImg}/>
+            <Tilt>
+                <div className={style.imageBlock} style={firstImg}/>
+            </Tilt>
             <div className={style.descriptionBlock}>
                 <h2>Иисус родился</h2>
                 <p>

@@ -2,6 +2,7 @@ import React from 'react';
 import style from "./JesusDie.module.css";
 import bibleIcon from "../../assets/images/bibleIcon.png";
 import jesusDie from "../../assets/images/JesusDie.png";
+import Tilt from 'react-parallax-tilt'
 
 const JesusDieBlock = () => {
     const firstImg = {
@@ -12,7 +13,10 @@ const JesusDieBlock = () => {
     }
     return (
         <div className={style.mainBlock}>
-            <div className={style.imageBlock} style={firstImg}/>
+            <Tilt>
+                <div className={style.imageBlock} style={firstImg}/>
+            </Tilt>
+
             <div className={style.descriptionBlock}>
                 <h2>
                     Иисус умер
