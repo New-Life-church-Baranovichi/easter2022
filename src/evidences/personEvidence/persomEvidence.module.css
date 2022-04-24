@@ -20,10 +20,11 @@
 }
 
 .photoImg {
+    border-radius: 10px;
     width: 141px;
     height: 141px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     position: absolute;
     top: -15px;

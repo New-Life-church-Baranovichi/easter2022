@@ -1,27 +1,26 @@
 import React from 'react';
 import style from "./persomEvidence.module.css";
-import IliaImage from "../../assets/images/Ilia.png";
-import {VisibilityContext} from "react-horizontal-scrolling-menu";
+
+
 
 type PersonEvidencePropsType = {
     name: string
-    age: number
+    age: string
     topBlock: string
     mainBlock: string
+    avatar: Object
 }
 
-const PersonEvidence: React.FC<PersonEvidencePropsType> = ({age, name, topBlock, mainBlock,}) => {
-    const iliaImg = {
-        backgroundImage: `url(${IliaImage})`
-    }
+const PersonEvidence: React.FC<PersonEvidencePropsType> = ({age, name, topBlock, mainBlock,avatar,}) => {
+
     return (
 
         <div className={style.mainContainer}>
             <div className={style.mainItem}>
-                <div className={style.photoImg} style={iliaImg}/>
+                <div className={style.photoImg} style={avatar}/>
                 <h2>{name}</h2>
                 <div className={style.ageBlock}>
-                    {age} лет
+                    {age}
                 </div>
                 <div className={style.topBlock}>
                     {topBlock}
